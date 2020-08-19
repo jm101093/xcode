@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FixYourTicket.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+				<key>dateExpires</key>
+				<string>11/07/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+						<key>dateExpires</key>
+						<string>11/07/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>32B4YGRXSH</string>
+						<key>name</key>
+						<string>Omar Valencia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+						<key>dateExpires</key>
+						<string>11/07/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>AlamofireObjectMapper.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>32B4YGRXSH</string>
+						<key>name</key>
+						<string>Omar Valencia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+						<key>dateExpires</key>
+						<string>11/07/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Branch.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>32B4YGRXSH</string>
+						<key>name</key>
+						<string>Omar Valencia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+						<key>dateExpires</key>
+						<string>11/07/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>ObjectMapper.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>32B4YGRXSH</string>
+						<key>name</key>
+						<string>Omar Valencia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+						<key>dateExpires</key>
+						<string>11/07/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SVProgressHUD.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>32B4YGRXSH</string>
+						<key>name</key>
+						<string>Omar Valencia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A90FBD533C5F6E7479916022066640A66AA3948B</string>
+						<key>dateExpires</key>
+						<string>11/07/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SlideMenuControllerSwift.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>32B4YGRXSH</string>
+						<key>name</key>
+						<string>Omar Valencia</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>32B4YGRXSH.com.fixyourticketapp.FixYourTicket</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>32B4YGRXSH</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>FixYourTicket.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>703fff05-6156-4ff2-badb-5728afc6832b</string>
+				<key>name</key>
+				<string>isk_fixticket_dev</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>32B4YGRXSH</string>
+				<key>name</key>
+				<string>Omar Valencia</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

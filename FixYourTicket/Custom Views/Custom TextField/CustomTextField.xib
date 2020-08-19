@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="FixYourTicket" customModuleProvider="target">
+            <connections>
+                <outlet property="placeHolderHorizontalConstraint" destination="Ek8-00-bDb" id="Xly-0a-8Wz"/>
+                <outlet property="placeHolderLabel" destination="pDK-NJ-x52" id="0Cw-nx-0HI"/>
+                <outlet property="placeHolderLeadingConstraint" destination="c6x-HZ-GZK" id="Hi9-Ob-2Jg"/>
+                <outlet property="textField" destination="oUp-BM-n5K" id="Ed3-hS-sX1"/>
+                <outlet property="textFieldLeadingConstraint" destination="cD8-V9-1YX" id="R4t-0X-IGK"/>
+                <outlet property="textFieldTopConstarint" destination="kcH-Jk-xsO" id="9eH-rb-07O"/>
+                <outlet property="textFieldTrailingConstraint" destination="4G3-ne-g0s" id="cup-dO-KjS"/>
+                <outlet property="view" destination="iN0-l3-epB" id="gdA-zf-CH3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oUp-BM-n5K">
+                    <rect key="frame" x="5" y="10" width="279" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email or Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDK-NJ-x52" customClass="CustomLabel" customModule="FixYourTicket" customModuleProvider="target">
+                    <rect key="frame" x="5" y="20.5" width="287" height="20"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oUp-BM-n5K" secondAttribute="trailing" constant="16" id="4G3-ne-g0s"/>
+                <constraint firstAttribute="trailing" secondItem="pDK-NJ-x52" secondAttribute="trailing" constant="8" id="Dn5-Kd-dh9"/>
+                <constraint firstItem="pDK-NJ-x52" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ek8-00-bDb"/>
+                <constraint firstItem="pDK-NJ-x52" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="c6x-HZ-GZK"/>
+                <constraint firstItem="oUp-BM-n5K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cD8-V9-1YX"/>
+                <constraint firstItem="oUp-BM-n5K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="kcH-Jk-xsO"/>
+                <constraint firstAttribute="bottom" secondItem="oUp-BM-n5K" secondAttribute="bottom" id="rQS-nJ-kDw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34" y="47.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - Branch (0.25.0):
+    - Branch/Core (= 0.25.0)
+  - Branch/Core (0.25.0)
+  - Crashlytics (3.10.5):
+    - Fabric (~> 1.7.9)
+  - Fabric (1.7.9)
+  - ObjectMapper (3.3.0)
+  - SlideMenuControllerSwift (4.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - Branch
+  - Crashlytics
+  - Fabric
+  - SlideMenuControllerSwift
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Branch
+    - Crashlytics
+    - Fabric
+    - ObjectMapper
+    - SlideMenuControllerSwift
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  Branch: 127d29ab0a8866025eece1cf9e950ddb6f7d4070
+  Crashlytics: 7f2e38d302d9da96475b3d64d86fb29e31a542b7
+  Fabric: a2917d3895e4c1569b9c3170de7320ea1b1e6661
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 7b1cad005fbb785ee6aec7f016c98390f35282ed
+
+COCOAPODS: 1.8.4
